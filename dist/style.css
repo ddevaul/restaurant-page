@@ -1,0 +1,132 @@
+*, *:after *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    font-family: "Times New Roman", Times, serif;
+}
+
+html{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    height: fit-content;
+    margin: 0;
+}
+h1{
+    font-size: 3rem;
+}
+
+p{
+    padding: none;
+    margin: none;
+}
+
+button{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3rem;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.865);
+    color: white;
+}
+
+.selectedButton{
+    background-color: rgb(255, 255, 255);
+    color:  hsla(0, 0%, 0%, 0.865);
+   
+}
+
+.reservation,
+.giftcard{
+    margin: 1rem;
+    background-color: rgb(218, 178, 0);
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 8rem;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: grayscale(100%);
+}
+
+.title{
+    font-size: 3rem;
+    font-style: oblique;
+    color: white;
+    margin: 1rem;
+}
+
+.logo{
+    margin: 1rem;
+    background-image: url(krustykrablogo.jpeg);
+    background-size:5rem;
+    width: 5rem;
+    height: 5.5rem;
+    background-repeat: no-repeat;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+}
+
+.content{
+    margin-bottom: 8rem;
+    min-height: calc(100vh - 24.5rem);
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.menu-container,
+.contact-container,
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.employeeOfMonth{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.special-notice{
+    margin: 1rem;
+}
+
+.footer{
+    background-color: rgba(67, 67, 67, 0.906);
+    color:rgb(165, 164, 164);
+    padding-left: 1rem;
+    height: 5rem;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
